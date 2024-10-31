@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet our professional real estate agents and find the perfect agent for your needs.">
+    <title>Our Agents - Mariana Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            background-color: #fff; 
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+       
+        header {
+            background-color: #ffcccb; 
+            color: #fff;
+            padding: 10px 0;
+        }
+        header .logo img {
+            width: 150px;
+        }
+        nav ul {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ff9999; 
+        }
+        .header {
+            background-color: #ffcccb;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .header p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        
+        .agent-card {
+            display: flex;
+            background-color: #fff;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .agent-card:hover {
+            transform: scale(1.05);
+        }
+        .agent-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .agent-info {
+            flex-grow: 1;
+        }
+        .agent-info h3 {
+            margin: 0;
+            color: #0044cc;
+        }
+        .agent-info p {
+            margin: 5px 0;
+        }
+        .contact-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff66b2; 
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .contact-btn:hover {
+            background-color: #ff3385; 
+        }
+        .footer {
+            background-color: #ffcccb; 
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .social-media {
+            list-style: none;
+            padding: 0;
+        }
+        .social-media li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .social-media a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .social-media a:hover {
+            color: #ff9999; 
+        }
+      
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 15px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffccd5; 
+            color: #333;
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo7.jpg" alt="Real Estate Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Agents.html">Agents</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                    <li><a href="register.html" class="btn-signup">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="header">
+        <h1>Meet Our Real Estate Agents</h1>
+        <p>Find the right agent for you from our professional and experienced team.</p>
+    </div>
+    <div class="container">
+        <div class="agent-card">
+            <img src="images/agent1.jpeg" alt="Agent Name" class="agent-photo">
+            <div class="agent-info">
+                <h3>Ayana Ghood</h3>
+                <p>Real Estate Agent</p>
+                <p>Specializes in luxury homes and high-end properties.</p>
+                <p><strong>Contact:</strong> ayana@remaxone.co.za | +27 65 904 0024</p>
+                <a href="mailto:ayana@remaxone.co.za" class="contact-btn">Contact Ayana</a>
+            </div>
+        </div>
+        <div class="agent-card">
+            <img src="images/agent2.jpeg" alt="Agent Name" class="agent-photo">
+            <div class="agent-info">
+                <h3>Cooper van Heerden</h3>
+                <p>Real Estate Broker</p>
+                <p>Expert in residential and commercial properties.</p>
+                <p><strong>Contact:</strong> cooper@remaxone.co.za | +27 78 931 0744</p>
+                <a href="mailto:cooper@remaxone.co.za" class="contact-btn">Contact Cooper</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Mariana Rights Reserved.</p>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+</body>
+</html>

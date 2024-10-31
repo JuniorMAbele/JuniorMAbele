@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Real Estate Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            background-color: #fff; 
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        header {
+            background-color: #ffcccb;
+            color: #fff;
+            padding: 10px 0;
+        }
+        header .logo img {
+            width: 150px;
+        }
+        nav ul {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover, nav ul li a.active {
+            color: #ff9999; 
+        }
+       
+        .about-hero {
+            background-color: #ffcccb; 
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .about-hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .about-hero p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .about-company, .mission-vision, .why-choose-us {
+            padding: 60px 0;
+            background-color: #fff; 
+            text-align: center;
+        }
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .mission, .vision {
+            display: inline-block;
+            width: 45%;
+            margin: 0 2.5%;
+            padding: 20px;
+            background-color: #ffe6e6; 
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .mission:hover, .vision:hover {
+            transform: scale(1.05);
+        }
+
+        .why-choose-us ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .why-choose-us li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #ffcccb; /* Lighter pink for footer */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Navbar styling */
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #333; 
+             text-decoration: none;
+            font-size: 16px;
+            padding: 10px 15px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffccd5; 
+            color: #333;
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo7.jpg" alt="Real Estate Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Agents.html">Agents</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                    <li><a href="register.html" class="btn-signup">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="about-hero">
+        <div class="container">
+            <h1>About Mariana</h1>
+            <p>Learn more about our company, values, and team.</p>
+        </div>
+    </section>
+    <section class="about-company">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <p>We are a leading real estate agency with over 8 years of experience in helping people find their dream homes. Our team of experienced agents is dedicated to providing exceptional service to both buyers and sellers.</p>
+        </div>
+    </section>
+    <section class="mission-vision">
+        <div class="container">
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p>To connect people with their ideal property by providing exceptional service, expert advice, and innovative solutions in the real estate market.</p>
+            </div>
+            <div class="vision">
+                <h2>Our Vision</h2>
+                <p>To be the most trusted and innovative real estate company, setting new standards in customer service and property solutions.</p>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>20+ years of real estate experience</li>
+                <li>A large network of properties</li>
+                <li>Experienced and trusted agents</li>
+                <li>Personalized service for every client</li>
+                <li>Innovative tools to find your dream home</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mariana Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
